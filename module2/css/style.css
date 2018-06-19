@@ -1,0 +1,58 @@
+	.container{
+		padding: 10px;
+		width:100%;
+	}
+	.content{
+		clear:both;
+	}
+	.contentHeading{
+		float:right;
+		border: 1px solid black;
+		margin-top:0px;
+		font-size:1.25em;
+	}
+	#heading1{
+		background-color:#a05;
+	}
+	#heading2{
+		background-color:#a33;
+	}
+	#heading3{
+		background-color:#aa0;
+	}	
+	.boxStyleGeneral{
+		background-color: #999;
+		font-family: Courier;
+		margin:2%;
+		border: 1px solid black;
+		
+	}
+	.contentBox{
+		float: left;
+		width:33.3%;
+	
+	}
+	
+	@media screen and (min-width:992px){
+		.contentBox{
+			width:33%;
+		}
+	}
+	@media (min-width:768px) and (max-width:991px){
+		.contentBox{
+			width:50%;
+		}
+		#sushiBox{
+			width:98%;	
+			
+		}
+	}	
+	@media (max-width:767px){
+		.contentBox{
+			width:100%;
+		}
+	}	
+	#pageHeading{
+		text-align:center;
+		font-size:1.75em;
+	}
